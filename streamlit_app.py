@@ -1,10 +1,10 @@
 import streamlit as st
 
 # ページの基本設定
-st.set_page_config(page_title="スマホ通知音 UI改善デモ", page_icon="📱", layout="centered")
+st.set_page_config(page_title="スマホ通知音 改善版", page_icon="📱", layout="centered")
 
 st.title("📱 スマホ通知音のUI改善デモ")
-st.write("ボタンを押すと、スマホのプッシュ通知のように画面右下にポップアップが出現し、音が鳴ります。")
+st.write("ボタンを押すと通知が来ます")
 
 # タブでBAD UIとGOOD UIを分ける
 tab1, tab2 = st.tabs(["❌ 現状 (BAD UI)", "✨ 提案 (GOOD UI)"])
