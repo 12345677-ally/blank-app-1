@@ -18,18 +18,18 @@ with tab1:
     
     with col1:
         if st.button("💬 LINEの通知", key="bad_line"):
-            st.audio("ボタン音07", format="audio/mp3", autoplay=True)
+            st.audio("ボタン音07.mp3", format="audio/mp3", autoplay=True)
             # スマホの通知風ポップアップを表示
             st.toast("LINE: お疲れ様！明日のゼミの件なんだけど...", icon="💬")
             
     with col2:
         if st.button("📦 Amazonの通知", key="bad_amazon"):
-            st.audio("ボタン音07", format="audio/mp3", autoplay=True)
+            st.audio("ボタン音07.mp3", format="audio/mp3", autoplay=True)
             st.toast("Amazon: ご注文の品が本日到着予定です", icon="📦")
             
     with col3:
         if st.button(" 🌤️天気予報の通知", key="bad_calendar"):
-            st.audio("ボタン音07", format="audio/mp3", autoplay=True)
+            st.audio("ボタン音07.mp3", format="audio/mp3", autoplay=True)
             st.toast("天気予報: 雨が降り始めます ", icon="🌤️")
 
 
@@ -42,17 +42,17 @@ with tab2:
     
     with col1:
         if st.button("💬 LINEの通知", key="good_line"):
-            st.audio("かわいい動き09", format="audio/mp3", autoplay=True)
+            st.audio("かわいい動き09.mp3", format="audio/mp3", autoplay=True)
             st.toast("LINE: お疲れ様！明日のゼミの件なんだけど...", icon="💬")
             
     with col2:
         if st.button("📦 Amazonの通知", key="good_amazon"):
-            st.audio("チャイム・インターホン02", format="audio/mp3", autoplay=True)
+            st.audio("チャイム・インターホン02.mp3", format="audio/mp3", autoplay=True)
             st.toast("Amazon: ご注文の品が本日到着予定です", icon="📦")
             
     with col3:
         if st.button("🌤️ 天気予報の通知", key="good_calendar"):
-            st.audio("天候・雨04", format="audio/mp3", autoplay=True)
+            st.audio("天候・雨04.mp3", format="audio/mp3", autoplay=True)
             st.toast("天気予報: 雨が降り始めます", icon="🌤️")
 
 # ボタンの見栄えを良くするCSS
